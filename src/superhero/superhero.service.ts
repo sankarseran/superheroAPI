@@ -1,7 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaClient } from '@prisma/client';
 import { SuperheroDto } from './dot/superhero.dot';
-import { formatHeroResponse, handleCreateHeroError, preparePowers } from './util';
+import {
+  formatHeroResponse,
+  handleCreateHeroError,
+  preparePowers,
+} from './util';
 
 @Injectable()
 export class SuperheroService {

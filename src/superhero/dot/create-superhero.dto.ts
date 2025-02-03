@@ -13,12 +13,15 @@ export class CreateSuperheroDto {
   @IsString()
   name: string;
 
-  @ApiProperty({ example:  ['88d90ee9-3e9d-49a4-87b1-cac4a30171d8', 'coding'], description: 'Power ids or names' })
+  @ApiProperty({
+    example: ['88d90ee9-3e9d-49a4-87b1-cac4a30171d8', 'coding'],
+    description: 'Power ids or names',
+  })
   @IsArray()
   @ArrayMinSize(1)
   @IsString({ each: true })
   powers: string[];
-  
+
   @ApiProperty({ example: 9, description: 'Humility rating (1-10)' })
   @IsInt()
   @Min(1)

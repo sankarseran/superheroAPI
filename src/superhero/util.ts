@@ -1,5 +1,5 @@
-import { BadRequestException } from "@nestjs/common";
-import { SuperheroDto } from "./dot/superhero.dot";
+import { BadRequestException } from '@nestjs/common';
+import { SuperheroDto } from './dot/superhero.dot';
 import { v4 as uuidv4, validate as isValidUUID } from 'uuid';
 
 export const preparePowers = async (powers: string[]) => {
@@ -15,7 +15,7 @@ export const preparePowers = async (powers: string[]) => {
           },
         },
   );
-}
+};
 
 export const formatHeroResponse = (hero: any): SuperheroDto => {
   return {
@@ -24,7 +24,7 @@ export const formatHeroResponse = (hero: any): SuperheroDto => {
     humilityRating: hero.humility_rating,
     powers: hero.powers.map((p) => ({ id: p.power.id, name: p.power.name })),
   };
-}
+};
 
 export const handleCreateHeroError = (error: any): never => {
   if (error.code === 'P2025') {
@@ -36,4 +36,4 @@ export const handleCreateHeroError = (error: any): never => {
     );
   }
   throw error;
-}
+};
