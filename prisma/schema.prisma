@@ -1,0 +1,30 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Hero {
+  id              String      @id @default(uuid())
+  name            String      @unique
+  humility_rating Int         @default(0)
+  powers          HeroPowers[]
+}
+
+model Power {
+  id      String      @id @default(uuid())
+  name    String      @unique
+  heroes  HeroPowers[]
+}
+
+model HeroPowers {
+  hero      Hero    @relation(fields: [hero_id], references: [id], onDelete: Cascade)
+  hero_id   String
+  power     Power   @relation(fields: [power_id], references: [id], onDelete: Cascade)
+  power_id  String
+
+  @@id([hero_id, power_id])
+}
