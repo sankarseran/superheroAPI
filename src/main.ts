@@ -5,6 +5,13 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
+  app.enableCors({
+    origin: '*',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    allowedHeaders: 'Content-Type, Accept',
+    credentials: true,
+  });
+
   const config = new DocumentBuilder()
     .setTitle('Humble Superhero API')
     .setDescription('API for managing humble superheroes')
