@@ -1,39 +1,58 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+List your superheroes along with their superpowers and ratings using this API: Hosted API Documentation [Superhero API](http://ec2-16-170-243-190.eu-north-1.compute.amazonaws.com:3000/api).
+
+<p align="center">
+  <a href="http://ec2-16-170-243-190.eu-north-1.compute.amazonaws.com:3000/api#/" target="blank"><img src="https://media-hosting.imagekit.io//3ac14b8eeb194193/superheroapi.png?Expires=1833273901&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ZcCsGb3xw9VmlGNGloAkLRiW7u3VYJafdW7VDrJtTdglAvQc05HrNU2TbqoUAOhVv8SDt6CyIbifkgk1Sf6lAQ7IPZKiR8TmaarKAZEr2aQXG3RVzPt189gZJYwvX3-X8ikfrp7WitXuDfq0yDm67K2e~sY71IpZ1V0EDy5EqCjFDVbcZJH-TyB2w-TqejgOMIbf~FMdsOmRxRom~SOj~~Iuasw1zXYjLYnYjf8KQotumNrR6V5EAT0akSrivTpz2vv-2qnH427Yu0mOW~GPua~bsUt-JQBrSu~d3ZKcY2F8jF~l2QAHnhIhKdQrJac1m4oiHgpQaacxLreIZ8crLQ__" width="70%" alt="superhero app" /></a>
+</p>
+
+
+A React - ``Next.js`` frontend application is available that displays a list of superheroes. You can easily download the application from the [repository](https://github.com/sankarseran/superheroWeb/tree/main) and follow the instructions to set it up and run it locally. Once set up, you can explore the superheroes listed on the interface. The app also allows you to filter superheroes by name, making it easier to find specific heroes. Additionally, you can add new superheroes directly within the application itself.
+
+<p align="center">
+  <a href="https://github.com/sankarseran/superheroWeb/tree/main" target="blank"><img src="https://media-hosting.imagekit.io//e60c396af23943dd/superheroweb.png?Expires=1833274072&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=TitBkvqBVCWUAiiyCu-Z7LoAWDvTFblfd9LlV40LJutA58XBoDAC0pNS~SC95htgCkEyEmS-v3xNI5bUnsMZnLRtkq5EfPCdiDcrCwO3yz3Eko1yPyBOiuvCbEVRhAAbmljHPDdvblZi0zvSfnrMRfEzJlGZLqF5SkDp5JmeSLHEWzlL3n7zczLjcnTrmyNgeHAf1Hld4pzps0zXMxIaH76gqdZ3PMLJYfcznK1Ufa-rnOtwHx7nwMVK5BNBjMiGG-Vx4T7aKO1Q4ihuVNHQxr2ikUzYHisWoZKsGRXaVGz0n3vgeK0K~S7eRKTo9LDoFimc9KPlUf1ttb44u4IyOg__" width="45%" style="margin-right: 5px; border: 2px solid black;" alt="superhero app" /></a>
+  <a href="https://github.com/sankarseran/superheroWeb/tree/main" target="blank"><img src="https://media-hosting.imagekit.io//3c0f7febc985487d/superheroweb1.png?Expires=1833276048&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=0zif1N~ztVO1DIsEx8ABEtultrmuyTM6nVnZffwC4VJCr5Hh~zUpJ7Vf15xO14Fk7cigcQgYEHPdN7swoCForchyPSTM-N9lBajtQwfpkhYa4W3KULBNVhmowWLegRBlPg53eGZ~AYUwEY6gB-juKrRPvXGXgos-HexdYn~87YnnSqY~uSKkaeEbm2yiGJBflyi~YAZrgsjq-PPHlRFgjPJghzCThmBn3cQkXFtExqhx5~1Alb8M3zhmFkwmE3XmNFUlHf4qwCjxVZpZFXRFZw2VjkGzHQJUTiL7NGBTR04KjXTrFbi66T-yvXoJDisPvpoBbICYxt7~snG4kLqagA__" width="45%" style="margin-left: 5px; border: 2px solid black;" alt="superhero app" /></a>
+</p>
+
+## Stack used
+- Backend
+    - Nest.js
+    - Postgresql
+    - Prisma ORM
+- Frontend
+    - React
+    - Next.js
+    - Ant desing UI
+- Devops
+    - AWS RDS Postgresql
+    - AWS EC2 Instance
+
 
 ## Project setup
+First, install dependencies:
 
 ```bash
 $ npm install
 ```
+## Database Configuration
+To connect to an existing database, use the shared ``.env`` file (sent via email) and place it in the root folder.
 
-## Compile and run the project
+If using a different **PostgreSQL** database, update the ``.env`` file with:
 
+```bash
+DATABASE_URL=your_database_connection_string
+```
+Then, run Prisma migrations:
+```bash
+# To run prisma migration 
+$ prisma migrate dev --name migration_name
+or
+$ npx prisma migrate dev --name migration_name
+```
+## Running the Application
+Once the setup is complete, start the application using one of the following modes:
 ```bash
 # development
 $ npm run start
@@ -46,53 +65,22 @@ $ npm run start:prod
 ```
 
 ## Run tests
+Unit tests are included to cover the core functionalities. To run them:
 
 ```bash
 # unit tests
 $ npm run test
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
+## Team Player Attitude
+When it comes to teamwork, I ensure to discuss with everyone about tasks/features through open communication to exchange ideas and give/get constructive feedbacks. We discuss and decide on the project architecture together, then divide work based on individual strengths—design, database, or UI. During development, we hold regular stand-ups to share progress, troubleshoot issues, and exchange ideas. Peer code reviews and testing are integral to maintaining quality. I value everyone’s input, fostering respectful discussions to refine ideas and ensure a collaborative, efficient workflow.
 
-## Deployment
-
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
-
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
-
-```bash
-$ npm install -g mau
-$ mau deploy
-```
-
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
-
-## Resources
-
-Check out a few resources that may come in handy when working with NestJS:
-
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## If I had more time
+-  Implement user authentication using JWT (JSON Web Tokens) to protect the API endpoints and personalize the experience. This would enable user-specific actions like adding, updating, and rating superheroes.
+- Explore cursor-based pagination for more efficient data retrieval and implement soft deletes for a smoother user experience.
+- Separate the update functionality for superheroes and ratings to provide more granular control.
+- Increase test coverage to ensure all API scenarios, including edge cases, are thoroughly validated.
+- Investigate strategies for scaling the API for production, including setting up CI/CD pipelines.
 
 ## License
 
